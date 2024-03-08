@@ -1,0 +1,40 @@
+body {
+    background: #2d3250;
+    color: white;
+    padding: 0;
+}
+
+
+#home {
+    text-align: center;
+}
+
+#gallery {
+    padding: 10px;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+}
+
+ul {
+    background: #ffff;
+    width: 400px;
+    padding: 2px;
+    list-style: none;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
